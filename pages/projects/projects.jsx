@@ -1,5 +1,5 @@
 import React from "react";
-import './Projects.css'
+import './projects.css';
 import Project from "../../src/components/project/Project";
 const Datas = [
   { image : '../public/project-images/findchar.png', information: 'A modern website',  link: 'https://omidfoladvand4.github.io/FindChartoText/' , title : 'find character in text '},
