@@ -1,0 +1,32 @@
+*{
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu {
+    width: 100vw;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #ffffff;
+    color: #213547;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 15px;
+    background-color: #213547;
+font-weight: 900;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.menu-item:hover{
+    transform: scale(1.2);
+}
+
+

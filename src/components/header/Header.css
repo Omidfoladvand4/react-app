@@ -1,0 +1,17 @@
+body{
+    width: 80%;
+}
+.header-container{
+    text-align: center;
+}
+h1{
+    color: orangered;
+}
+h2{
+    color: orange;
+}
+
+
+strong{
+    color: yellow;
+}

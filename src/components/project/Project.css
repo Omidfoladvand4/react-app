@@ -1,0 +1,43 @@
+.project-card{
+    width: 420px;
+    padding: 10px 20px ;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: blueviolet;
+    margin: 10px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+.project-card:hover .project-image{
+    transform: scale(0.98);
+}
+.project-card:hover{
+    background-color: aliceblue;
+}
+.project-title{
+    font-size: 18px;
+    color: orange;
+    font-weight: 400;
+}
+.project-image{
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+.project-information{
+    font-size: larger;
+    color: #000000;
+}
+.project-button{
+    width: 80%;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: orange;
+    border: none;
+}
